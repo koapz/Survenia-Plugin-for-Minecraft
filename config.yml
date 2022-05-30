@@ -1,0 +1,94 @@
+signtp:
+  sign1:
+    permission: true
+    line0: "[T\u00e9l\u00e9port]"
+    line1: "Salle"
+    line2: "des"
+    line3: "coffres"
+  worldtpsign:
+    world: "world"
+  coords:
+    coordsX: 49.120
+    coordsY: -38.00000
+    coordsZ: 12.595
+    coordsvuleftright: -90.1
+    coordsvuupdown: 0.2
+  messagesigntp:
+    messagesone: "&6[Survenia-T\u00e9l\u00e9portation] &aT\u00e9l\u00e9portation vers la salle des coffres..."
+    messagestwocoffre: "&6[Survenia-T\u00e9l\u00e9portation] &aT\u00e9l\u00e9portation effectu\u00e9."
+    messagenoaccesssignadmin: "&6[Survenia-T\u00e9l\u00e9portation] &4&lVous n'avez pas l'acc\u00e8s \u00e0 ce panneau de t\u00e9l\u00e9portation !"
+timer:
+  messagestimer:
+    messagechat:
+      messagechatone: "&6[Survenia] &3&lDes \u00e9vents sont pr\u00e9vus sur notre serveur discord !"
+      messagechattwo: "&6[Survenia] &a&ldiscord.survenia.fr"
+      messagechatthree: "&6[Survenia] &4&lN'h\u00e9sitez pas \u00e0 faire un tour sur notre site: &ahttps://survenia.fr"
+item:
+  itemnameopm: "&4ONE PUNCH MAN"
+messages:
+  #Message de connexion/déconnection d'un joueur
+  joindisconnectplayer:
+    #Message de connection
+      #1
+    connectpartone: "&l&3Le joueur &6"
+      #2
+    connectparttwo: " &l&3s'est &2connect\u00e9."
+    #Message de déconnection
+      #1
+    disconnectpartone: "&l&3Le joueur &6"
+      #2
+    disconnectparttwo: " &l&3s'est &4d\u00e9connect\u00e9."
+    #Nom du serveur lorsqu'un joueur se co.
+    connectanddisconnect: "&6[Survenia] "
+    #Message au joueur qui se connecte.
+    messageone: "&2Chargement en cours..."
+    messagetwo: "&aConnect\u00e9 &asur &6Surv&4enia."
+  #Les commandes
+  commands:
+    #Messages d'une commande
+    commandsmessages:
+      #Message de la command anonyme
+      commandanomessage:
+        errornoargs: "&4&lErreur: Vous devez \u00e9crire un message !"
+      #Message de la command clearinventory
+      commandclearinventorymessage:
+        messagecleared: "&aVotre inventaire a \u00e9t\u00e9 correctement nettoy\u00e9."
+        messageerrorargs: "&4&lErreur: la commande n'accepte pas d'arguments pour clear l'inventaire !"
+        messageerroralreadycleared: "&4&lL'inventaire est d\u00e9j\u00e0 vide !"
+      #Message de la command onepunchman(opm)
+      commandonepunchman:
+        messagegivedopm: "&n&4&lONE PUNCH MAN ACTIVED."
+        messageerrorargs: "&4&lErreur: la commande n'accepte pas d'arguments pour avoir le pouvoir d'One Punch Man !"
+      #Message de la command setspawn
+      commandsetspawn:
+        messagesetspawndefined: "&aSpawn d\u00e9fini correctement."
+        messageerrorargs: "&4&lErreur: la commande n'accepte pas d'arguments pour appliquer le spawn !"
+      #Message de la command spawn
+      commandspawn:
+        messagetpspawn: "&3T\u00e9l\u00e9portation vers le spawn..."
+        messageerrorargs: "&4&lErreur: la commande n'accepte pas d'arguments pour se t\u00e9l\u00e9porter vers le spawn !"
+      commandsrl:
+        messagetimerreloadpartone: "&4&lRafraichissement dans &6&l"
+        messagetimerreloadparttwo: "&4&l..."
+        messagereloading: "&4&lRafraichissement en cours..."
+        messagereloadingfinished: "&a&lRafraichissement effectu\u00e9."
+        messageerrorargs: "&4&lErreur: la commande n'accepte pas d'arguments pour rafraichir le serveur !"
+    #Nom des commandes
+    commandano: "&6[Survenia-Anonyme] "
+    commandclearinventory: "&6[Survenia-ClearInventory] "
+    commandspawn: "&6[Survenia-Spawn] "
+    commandopm: "&6[Survenia-OPM] "
+    commandsrl: "&6[Survenia-SRL] "
+  #broadcast: message qui s'envoit à tous
+  broadcast:
+  #Nom du Broadcast
+    commandano: "&7[Survenia-Anonyme]&f "
+help:
+  commandsdescription:
+    commandanonymedesc:
+    commandclearinventorydesc:
+    commanddypcodesc:
+    commandopmdesc:
+    commandsetspawndesc:
+    commandspawndesc:
+    commandsrldesc:

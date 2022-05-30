@@ -1,0 +1,25 @@
+name: Survenia-Plugin
+version: 2.4
+author: Dypco
+website: https://survenia.fr
+main: survenia.plugin.main.SurveniaPlugin
+commands:
+  c:
+    description: Commande pour clear l'inventaire
+  ano:
+    description: Commande qui fait un broadcast, qui permet d'envoyer un message anonyme
+  dypco:
+    description: Commande Secret
+  spawn: 
+    description: Commande pour se teleporter vers le spawn
+  setspawn:
+    description: Commande pour placer le spawn
+    permission: setspawn.use
+  opm:
+    description: Commande pour claquer des grands-meres
+    permission: opm.use
+  srl:
+    description: Commande pour rafraichir le serveur
+    permission: srl.use
+  sphelp:
+    description: Menu d'aide des commandes
